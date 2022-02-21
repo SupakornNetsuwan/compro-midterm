@@ -17,7 +17,6 @@ int main()
         strcat(array[i], newString);
     }
 
-
     for (int i = 0; i < sizeof(array) / sizeof(array[0]); i++)
     {
         printf("%s\n", array[i]);
